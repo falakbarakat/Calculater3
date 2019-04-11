@@ -1,15 +1,11 @@
 package se.lexicon.falak.calculator3;
-
 import java.util.Scanner;
-
 public class App {
 	static boolean running = true;
 	static Scanner sc1 = new Scanner(System.in);
-
 	public static void main(String[] args) {
 		while (running) {
 			i_calculator cal = new calculatori();
-
 			System.out.println("input num1");
 			double num1 = Double.parseDouble(sc1.nextLine());
 			System.out.println("input num2");
